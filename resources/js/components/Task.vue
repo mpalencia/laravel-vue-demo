@@ -381,7 +381,7 @@ if (error.response.data.errors && error.response.data.errors.description)
 
            {
 
-               axios.get('http://127.0.0.1:8000/task')
+               axios.get('/task')
 
                    .then(response => {
 

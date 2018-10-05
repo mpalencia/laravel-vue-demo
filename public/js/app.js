@@ -47699,9 +47699,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -47789,7 +47786,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         readTasks: function readTasks() {
             var _this3 = this;
 
-            axios.get('http://127.0.0.1:8000/task').then(function (response) {
+            axios.get('/task').then(function (response) {
 
                 _this3.tasks = response.data.tasks;
             });
@@ -47863,7 +47860,7 @@ var render = function() {
               },
               [
                 _vm._v(
-                  "\n                    Add New Assignment\n                    "
+                  "\n                  Add New Assignment\n                  "
                 )
               ]
             )
@@ -47889,17 +47886,17 @@ var render = function() {
                             _vm._v(" "),
                             _c("td", [
                               _vm._v(
-                                "\n\n                                  " +
+                                "\n\n                                " +
                                   _vm._s(task.name) +
-                                  "\n\n                              "
+                                  "\n\n                            "
                               )
                             ]),
                             _vm._v(" "),
                             _c("td", [
                               _vm._v(
-                                "\n\n                                  " +
+                                "\n\n                                " +
                                   _vm._s(task.description) +
-                                  "\n\n                              "
+                                  "\n\n                            "
                               )
                             ]),
                             _vm._v(" "),
@@ -48204,25 +48201,25 @@ var staticRenderFns = [
     return _c("tr", [
       _c("th", [
         _vm._v(
-          "\n\n                                  No.\n\n                              "
+          "\n\n                                No.\n\n                            "
         )
       ]),
       _vm._v(" "),
       _c("th", [
         _vm._v(
-          "\n\n                                  Name\n\n                              "
+          "\n\n                                Name\n\n                            "
         )
       ]),
       _vm._v(" "),
       _c("th", [
         _vm._v(
-          "\n\n                                  Description\n\n                              "
+          "\n\n                                Description\n\n                            "
         )
       ]),
       _vm._v(" "),
       _c("th", [
         _vm._v(
-          "\n\n                                  Action\n\n                              "
+          "\n\n                                Action\n\n                            "
         )
       ])
     ])
